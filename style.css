@@ -1,8 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
 .header {
     background-color: #1F2937;
     color: white;
+    height: 400px;
+}
+.container {
+    height: 400px;
+}
+.quote {
+    background-color: #E5E7EB;
+    height: 800px;
+}
+.cta-container {
+    height: 100px;
 }
 .footer {
+    
     background-color: #1F2937;
     color: white;
+    height: 100px;
 }
