@@ -130,18 +130,63 @@ body {
 
 .quote {
     background-color: #E5E7EB;
-    height: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote-container {
+    width: 400px;
+    font-size: 18px;
+}
+.quote-container quote {
+
+}
+.quote-container strong {
+    float: right;
+    padding: 5px;
 }
 .cta-container {
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cta-blue-container {
-    background-color: lightblue;
-    height: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 1%;
+    height: 75px;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-blue-container button {
+    color: white;
+    background-color: #3882F6;
+    width: 80px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+.cta-blue-container button:hover {
+    background-color: grey;
+}
+#cta-head {
+    font-size: 14px;
+}
+#cta-subtext {
+    font-size: 10px;
 }
 .footer {
-    
     background-color: #1F2937;
     color: white;
-    height: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
 }
